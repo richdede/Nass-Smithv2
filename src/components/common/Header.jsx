@@ -9,9 +9,9 @@ export const Header = () => {
     <>
       <header>
         <div className='container flexsb'>
-          <div className='logo'>
+          <Link to="/" className='logo'>
           Nass smith
-          </div>
+          </Link>
           <div className={responsive ? "hideMenu" : "nav"}>
             {navlink.map((links, i) => (
               <Link to={links.url} key={i} data-aos='zoom-in-left'>

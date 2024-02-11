@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram } from "@mui/icons-material"
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram } from "@mui/icons-material"
 
 export const navlink = [
   {
@@ -93,18 +93,18 @@ export const project = [
     num: "20",
     title: "PROJECTS COMPLETED",
   },
-  {
-    id: 3,
-    icon: <Public />,
-    num: "50",
-    title: "FILES DOWNLOADED",
-  },
-  {
-    id: 4,
-    icon: <PersonOutlined />,
-    num: "1000",
-    title: "LINES OF CODE",
-  },
+  // {
+  //   id: 3,
+  //   icon: <Public />,
+  //   num: "50",
+  //   title: "FILES DOWNLOADED",
+  // },
+  // {
+  //   id: 4,
+  //   icon: <PersonOutlined />,
+  //   num: "1000",
+  //   title: "LINES OF CODE",
+  // },
 ]
 export const portfolio = [
   {
@@ -113,6 +113,7 @@ export const portfolio = [
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
+    link: "/",
   },
   {
     id: 2,
@@ -120,6 +121,7 @@ export const portfolio = [
     name: "Brand",
     category: "design",
     title: "Brex Logo",
+    link: "/",
   },
   {
     id: 3,
@@ -127,6 +129,7 @@ export const portfolio = [
     name: "Brand",
     category: "development",
     title: "Brex Logo",
+    link: "/",
   },
   {
     id: 4,
@@ -134,6 +137,7 @@ export const portfolio = [
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
+    link: "/",
   },
   {
     id: 5,
@@ -141,6 +145,7 @@ export const portfolio = [
     name: "Brand",
     category: "design",
     title: "Brex Logo",
+    link: "/",
   },
   {
     id: 6,
@@ -148,6 +153,7 @@ export const portfolio = [
     name: "Brand",
     category: "development",
     title: "Brex Logo",
+    link: "/",
   },
 ]
 export const testimonials = [
