@@ -44,7 +44,7 @@ h6 {
 .container {
   max-width: 85%;
   margin: auto;
-  overflow: hidden;
+
 }
 .flexsb {
   display: flex;
@@ -372,6 +372,7 @@ footer i {
 .about {
   padding-top: 160px;
   margin-top: 40px;
+  overflow: hidden;
 }
 
 .grid3 {
