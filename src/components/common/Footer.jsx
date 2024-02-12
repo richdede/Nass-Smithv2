@@ -1,26 +1,57 @@
+// import React from "react"
+// import { socialI, socialT, socialF } from "../data/dummydata"
+
+// const Footer = () => {
+//   return (
+//     <>
+//       <footer>
+//         {socialF.map((item) => (
+//           <a href="/">
+//             <i data-aos='zoom-in'>{item.icon}</i>
+//           </a>
+//         ))}
+//         {socialT.map((item) => (
+//           <a href="/">
+//             <i data-aos='zoom-in'>{item.icon}</i>
+//           </a>
+//         ))}
+//         {socialI.map((item) => (
+//           <a href="/">
+//             <i data-aos='zoom-in'>{item.icon}</i>
+//           </a>
+//         ))}
+//         <p>All Right Reserved 2024</p>
+//       </footer>
+//     </>
+//   )
+// }
+
+// export default Footer
+
 import React from "react"
+import { Link } from "react-router-dom"
 import { socialI, socialT, socialF } from "../data/dummydata"
 
 const Footer = () => {
   return (
     <>
       <footer>
-        {socialF.map((item) => (
-          <a href="/">
+        {socialF.map((item, index) => (
+          <Link to="/" key={index}>
             <i data-aos='zoom-in'>{item.icon}</i>
-          </a>
+          </Link>
         ))}
-        {socialT.map((item) => (
-          <a href="/">
+        {socialT.map((item, index) => (
+          <Link to="/" key={index}>
             <i data-aos='zoom-in'>{item.icon}</i>
-          </a>
+          </Link>
         ))}
-        {socialI.map((item) => (
-          <a href="/">
+        {socialI.map((item, index) => (
+          <Link to="/" key={index}>
             <i data-aos='zoom-in'>{item.icon}</i>
-          </a>
+          </Link>
         ))}
-        <p data-aos='zoom-in'>All Right Resceved 2023</p>
+        <p>All Right Reserved 2024</p>
       </footer>
     </>
   )
