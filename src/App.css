@@ -379,9 +379,10 @@ footer i {
     background-image: url("../public/images/testimonials-bg.png");
   }
 
-  /* .contact {
+  .contact {
+    margin-top: 20px;
     padding-top: 70px;
-  } */
+  }
   
 .about {
   padding-top: 160px;
