@@ -365,6 +365,10 @@ footer i {
     height: 60vh;
   }
 
+  .hero.counter::after {
+    height: 30vh;
+  }
+
   .contact {
     padding-top: 70px;
   }
