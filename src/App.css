@@ -390,7 +390,7 @@ footer i {
 .counter {
   margin-top: 50px;
   margin-bottom: 70px;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   padding-top: 55px;
 }
 
