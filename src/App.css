@@ -281,7 +281,7 @@ article .box:hover .overlay {
   background-image: url("../public/images/testimonials-bg.png");
 }
 .testimonials .box {
-  max-width: 75%;
+  max-width: 60%;
 }
 .testimonials i {
   background-color: var(--white);
@@ -377,6 +377,10 @@ footer i {
 
 .grid3 {
   display: block;
+}
+
+.testimonials .box {
+  max-width: 75%;
 }
 
 .counter {
