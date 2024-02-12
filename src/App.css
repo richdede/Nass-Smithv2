@@ -63,6 +63,10 @@ button {
   margin-top: 7px;
   cursor: pointer;
 }
+
+.btn{
+  padding: 14px 50px;
+}
 .fontSize {
   font-size: 20px;
 }
@@ -386,7 +390,7 @@ footer i {
   }
 
   .contact {
-    margin-top: 170px;
+    margin-top: 190px;
   }
   
 .about {
