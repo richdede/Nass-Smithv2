@@ -366,7 +366,7 @@ footer i {
   }
 
   .hero.counter::after {
-    height: 30vh;
+    height: 10vh;
   }
 
   .contact {
