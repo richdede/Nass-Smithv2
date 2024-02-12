@@ -173,6 +173,10 @@ section {
 .left {
   width: 35%;
 }
+.left img{
+  border-radius: 5px;
+  height: 450px;
+}
 .right {
   width: 65%;
 }
