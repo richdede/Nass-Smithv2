@@ -365,6 +365,12 @@ footer i {
     height: 60vh;
   }
 
+  .butn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
   .hero::after {
     background-image: url("../public/images/home-bg.png");
     height: 80vh;
