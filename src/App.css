@@ -361,7 +361,7 @@ footer i {
 /*---------footer-------------*/
 @media screen and (max-width: 768px) {
   .hero {
-    height: 50vh;
+    height: 60vh;
   }
 
   .contact {
@@ -372,7 +372,7 @@ footer i {
   
 .about {
   padding-top: 160px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .grid3 {
