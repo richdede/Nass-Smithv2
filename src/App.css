@@ -362,7 +362,6 @@ footer i {
 @media screen and (max-width: 768px) {
   .hero {
     height: 60vh;
-    overflow: hidden;
   }
 
   .contact {
