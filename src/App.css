@@ -365,8 +365,18 @@ footer i {
     height: 60vh;
   }
 
+  .hero::after {
+    background-image: url("../public/images/home-bg.png");
+    height: 80vh;
+  }
+
   .hero.counter::after {
+    background-image: url("../public/images/some-facts-bg.png");
     height: 10vh;
+  }
+
+  .testimonials::after {
+    background-image: url("../public/images/testimonials-bg.png");
   }
 
   .contact {
@@ -391,7 +401,7 @@ footer i {
   margin-top: 70px;
   margin-bottom: 70px;
   /* padding-bottom: 40px; */
-  padding-top: 55px;
+  padding-top: 70px;
 }
 
 .hero.counter::after {
@@ -406,13 +416,7 @@ footer i {
     max-width: 80%;
   }
 
-  .hero::after {
-    background-image: url("../public/images/home-bg.png");
-    background-size: cover;
-    object-fit: cover;
-    width: 100%;
-    height: 80vh;
-  }
+
   section {
     height: auto;
     padding-top: 50px;
